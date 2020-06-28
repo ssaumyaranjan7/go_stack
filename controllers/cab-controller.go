@@ -46,6 +46,7 @@ func GetCabDetailsByID(c echo.Context) error {
 	return c.JSON(http.StatusOK, cab)
 }
 
+// FindNearByCab Gets the nearby cab
 func FindNearByCab(c echo.Context) error {
 	user := helpers.GetUserFromClaims(c)
 	u := models.FindUserByID(user.ID)
