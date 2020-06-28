@@ -1,3 +1,3 @@
 # go_stack
 
-# Use `dep ensure` to install dependency
+> Use `dep ensure` to install dependency
